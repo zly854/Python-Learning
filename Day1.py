@@ -17,11 +17,13 @@ print('The perimeter of the circle is %.1f ' % (perimeter ))
 #Exercise 3
 #Judge whether the year is the leap year
 
-
 year=int(input('Please input the year '))
 is_leap=bool(year % 4 == 0 and year % 100 != 0 or year % 400 == 0)
 print(is_leap)
 
+#Notice:logistic operator ought to be carefully remembered.
+
+#First time to use git and there are many problems troubling me, but it's worth being happy that all problems have been solved perfectly. 
 
 
 
