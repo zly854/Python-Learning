@@ -59,3 +59,9 @@
 
 - 逻辑运算符 ```and or not```
   
+## 3rd Day
+
+- ```range(start,stop,step)``` range函数的用法，截止到stop处停止，不会包含stop
+- 取余函数 ```%```  其中 ```value%i```表示value除以i的余
+- ```swap``` 函数在python中为```x,y=y,x```
+- ```for``` 循环无相加操作

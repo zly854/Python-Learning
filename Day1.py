@@ -7,6 +7,7 @@ print('The template is %.1f ' % (b))
 #some questions: python is strict with grammar,the end of the function input should be a 'space'
 
 #Exercise 2
+
 #Calculate the area and the perimeter of a circle
 radius=float(input('Please input the radius of the circle '))
 area=radius*3.1416

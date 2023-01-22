@@ -40,3 +40,33 @@ for i in range(temp_m,value_1*value_2+1):
         break
 
 print('The max factor is %d and the least multiple is %d' % (M_factor,M_multiple))
+
+#swap in python x,y=y,x
+
+row = int(input("Please input the number of the row: "))
+print('The first picture')
+for i in range(row):
+    for j in range(i+1):
+        print('*', end='')
+    print()
+print('The second picture')
+for i in range(row):
+    for j in range(row):
+        if j<row-i-1:
+            print(' ', end='')
+        else:
+            print('*', end='')
+    print()
+print('The third picture')
+
+for i in range(row):
+    for j in range(2*row-1):
+        if j<row-i-1:
+            print(' ', end='')
+        elif j<row+i:
+            print('*', end='')
+        else:
+            print('',end='')
+    print()
+
+
