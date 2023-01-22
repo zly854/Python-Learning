@@ -1,5 +1,5 @@
 #Exercise 1
-#template translation
+#template conversion
 a=float(input('Please input the template: '))
 b=(a-32)/1.8
 print('The template is %.1f ' % (b))
