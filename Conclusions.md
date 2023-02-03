@@ -57,6 +57,8 @@
 
   ```f-string``` 函数的相关打印
 
+  ```print``` 函数的结束操作 ```print(' ' end = '')``` 原有的print操作默认是换行，此处以指定的结束语句结束打印
+
 - 逻辑运算符 ```and or not```
   
 ## 3rd Day
@@ -65,3 +67,19 @@
 - 取余函数 ```%```  其中 ```value%i```表示value除以i的余
 - ```swap``` 函数在python中为```x,y=y,x```
 - ```for``` 循环无相加操作
+
+## 4th Day
+- ```//``` 表示整数除法 返回商的整数部分
+
+## 5th Day 
+- ```from...import``` 引入库
+- ```random randint ```随机数函数
+- ```randint(x,y)```生成在两个数字之间的随机数
+  
+## 5th Day
+- 函数的定义和封装
+
+# 常见算法
+
+- 回文数字：```while ( number >0 ) reserve = reserve * 10 + num%10  num=num//10```
+- 
